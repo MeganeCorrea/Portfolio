@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Mégane Correa</title>
+    <link rel="icon" href="asset/img/petit_logo.jpg">
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html"><img src="asset/img/logo_violet.png"> </a>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="travail.html">Projet</a>
+                </li>
+
+                <li>
+                    <a href="a_propos.html">A Propos</a>
+                </li>
+
+                <li>
+                    <a class="koala" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <form id="contact_form" method="post" enctype="multipart/form-data">
+
+        <img src="asset/img/alpes5.jpeg"/>
+
+        <div>
+
+            <input type="text" id="prenom" name="prenom" placeholder="Prénom" size="30">
+            <span id="name_validation" class="error_message"></span>
+
+            <input type="text" id="name" name="name" placeholder="Nom" size="30">
+            <span id="nom_validation" class="error_message"></span>
+
+            <input type="text" id="email" name="email" placeholder="Email" size="30">
+            <span id="email_validation" class="error_message"></span>
+
+            <textarea id="message" name="message" placeholder="Message" rows="7" cols="30"></textarea>
+            <span id="message_validation" class="error_message"></span>
+
+            <button type="submit">Envoyer</button>
+
+        </div> 
+            
+
+                <!-- 
+            <input id="submit_button" type="submit" value="Envoyer" />
+                -->
+    </form>
+
+    <footer>
+        <span>Mentions Légales</span>
+        <a href="a_propos.html"><h4>A propos</h4></a>
+        <a href="contact.php"><h4>Contact</h4></a>
+        <a href="asset/pdf/cv.pdf" target="_blank"><h4>CV</h4></a>
+        <span>
+            ©2023 - Mégane Correa
+        </span>
+    </footer>
+
+</body>
+</html>
